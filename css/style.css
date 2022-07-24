@@ -131,8 +131,7 @@ img {
 
 /* TABLET VERSION */
 @media screen and (max-width: 768px) {
-
-    /* border: 1px solid red; */
+    /* GENERAL STYLES */
     h1 {
         margin-bottom: 2.5rem;
         font-size: 2rem;
@@ -144,30 +143,33 @@ img {
     }
 
     h3 {
-        margin-bottom: 0-5rem;
+        margin-bottom: 0.5rem;
         font-size: 1rem;
     }
 
-
-
-
-
-
-    /* LESSION SECTION */
-    .lessons .col {
-        width: 32%;
+    /* LAYOUT */
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
     }
 
+    /* LESSION SECTION */
     .lessons .col img {
         height: 150px;
         margin-bottom: 0.7rem;
     }
 
+    /* STEPS SECTION */
+    .steps {
+        margin: 2.5rem 0;
+        padding: 2.5rem 0;
+    }
 
-
-
-
-
+    .steps .col img {
+        height: 150px;
+        margin-bottom: 0.7rem;
+    }
 }
 
 
