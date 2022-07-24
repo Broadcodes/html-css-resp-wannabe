@@ -170,6 +170,16 @@ img {
         height: 150px;
         margin-bottom: 0.7rem;
     }
+
+    /* WHY US SECTION */
+    .why-us {
+        margin-bottom: 2.5rem;
+    }
+
+    .why-us li {
+        list-style: none;
+        margin-bottom: 2rem;
+    }
 }
 
 
