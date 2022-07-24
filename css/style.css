@@ -184,6 +184,7 @@ img {
     .why-us .col-left {
         display: flex;
         justify-content: center;
+        align-items: start;
     }
 
     .why-us .col-left img {
